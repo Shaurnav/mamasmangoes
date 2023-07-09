@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export type MangoItemProps = {
   name: string,
@@ -8,9 +9,7 @@ export type MangoItemProps = {
   description: string, 
 }
 
-
 export default function MangoItem({name, imageUrl, price, description }: MangoItemProps) {
-  
   return (
     <div className={styles.card}>
       <div className={styles.mainInformation}>
@@ -29,9 +28,9 @@ export default function MangoItem({name, imageUrl, price, description }: MangoIt
           <p>{description}</p>
         </div>
       </div>
-      <button>
-        ADD TO CART
-      </button>
+      <Link className={styles.button} href="/" role='button'>
+        CONTACT TO BUY
+      </Link>
     </div>
   );
 }

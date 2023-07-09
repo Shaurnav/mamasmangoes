@@ -7,8 +7,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 1rem;
-  padding: .5rem;
+  margin: 3rem;
+  padding: 1rem;
 
   .mainInformation {
     .image {
@@ -56,13 +56,18 @@
     }
   }
 
-  button {
+  
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-    background-color: #f38c2b;
+    background-color: #f38c2b;;
     height: 3rem;
     margin: .25rem;
-    font-family: 'Comfortaa', sans-serif;
-  }
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+  }
 }
 

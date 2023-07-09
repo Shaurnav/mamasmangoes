@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <nav className={styles.navbar}>
-        <Link href="\" className={styles.logo}>
+        <Link href="/" className={styles.logo}>
           <h3>Mama's Mangos</h3>
           <Image 
             src="/mango.png" 
@@ -16,8 +16,8 @@ export default function Header() {
             className={styles.mangoLogo}
           />
         </Link>
-        <div className={styles.shoppingCart}>
-          <Link href="\">
+        {/* <div className={styles.shoppingCart}>
+          <Link href="/checkout">
             <Image 
               alt="cart" 
               src="/shopping-cart.svg"
@@ -25,7 +25,7 @@ export default function Header() {
               height={40}
             />           
           </Link>
-        </div>
+        </div> */}
       </nav>
     </header>
 );

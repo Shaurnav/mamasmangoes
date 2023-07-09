@@ -1,12 +1,11 @@
-import Image from 'next/image'
+"use client";
+
 import styles from './page.module.scss'
-import Link from 'next/link'
 import Footer from '@/components/footer'
 import Header from '@/components/header'
 import HeroBanner from '@/components/hero-banner'
-import MangoItem from '@/components/mango-item'
-import { MangoItemProps } from '@/components/mango-item'
 import MangoGrid from '@/components/mango-grid'
+import { StoreProvider } from '@/utils/Store'
 
 export default function Home() {
 
@@ -20,10 +19,8 @@ export default function Home() {
     }]
   };
   
-
   return (
     <div>
-
       <header className={styles.header}>
         <Header/>
       </header>      

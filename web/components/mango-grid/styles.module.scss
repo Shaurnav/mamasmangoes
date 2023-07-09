@@ -12,8 +12,27 @@
     color: #f38c29;
   }
 
-  .grid {
-    display: grid;
-    grid-template: auto;
+  .gridInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .grid {
+      display: grid;
+      grid-template: auto;
+    }  
+
+    .info {
+      display: block;
+      height: 100%;
+      width: 50%;      
+      flex-direction: column;
+      justify-content: center;
+
+      a {
+        font-size: x-large;
+        text-decoration: underline;
+      }
+    }
   }
 }
