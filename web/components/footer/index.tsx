@@ -4,7 +4,7 @@ export default function Footer() {
   
   return (
     <div className={styles.footer}>
-      <p>Copyright 2023</p>
+      <p>Sunrise Fruits & Farm LLC. All rights reserved.</p>
     </div>
   );
 }
