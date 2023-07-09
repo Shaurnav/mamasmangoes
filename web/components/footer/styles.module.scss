@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  min-height: 5vh;
+  flex-direction: column;
+  margin: .5rem;
+  padding: .5rem;
+
+  p {
+    display: flex;
+    align-self: center;
+  }
+}

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.scss'
 import Link from 'next/link'
+import Footer from '@/components/footer'
 import Header from '@/components/header'
 import HeroBanner from '@/components/hero-banner'
 
@@ -12,7 +13,7 @@ export default function Home() {
         <HeroBanner/>
         main stuff
       </main>
-      <footer>footer</footer>
+      <Footer/>
     </div>
   )
 }
