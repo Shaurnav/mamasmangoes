@@ -1,0 +1,45 @@
+.card {
+  align-self: center;
+  background-color: lightblue;
+  border-radius: 1rem;
+  width: 17rem;
+  height: 26rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .image {
+    align-self: center;
+    border-radius: 1rem;
+    margin: .25rem;
+    padding: .25rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: .25rem;
+    padding: .25rem;
+
+    h3 {
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .description {
+    margin: .25rem;
+    padding: .25rem;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+

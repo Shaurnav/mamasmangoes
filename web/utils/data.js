@@ -3,7 +3,7 @@ const data = {
     {
       name: 'Valencia Pride Mango',
       // slug: 'free-shirt',
-      image: '/images/shirt1.jpg',
+      imageUrl: '/valencia-pride.jpg',
       price: 70,
       // rating: 4.5,
       // numReviews: 8,
