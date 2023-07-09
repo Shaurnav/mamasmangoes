@@ -13,20 +13,25 @@ export default function MangoItem({name, imageUrl, price, description }: MangoIt
   
   return (
     <div className={styles.card}>
-      <Image 
-        className={styles.image}
-        src={imageUrl}
-        alt="Valencia Pride Mango"
-        width={248}
-        height={250}
-      />
-      <div className={styles.info}>
-        <h3>{name}</h3>
-        <p>${price}/lb</p>
+      <div className={styles.mainInformation}>
+        <Image 
+          className={styles.image}
+          src={imageUrl}
+          alt="Valencia Pride Mango"
+          width={248}
+          height={250}
+        />
+        <div className={styles.info}>
+          <h3>{name}</h3>
+          <p>${price}/lb</p>
+        </div>
+        <div className={styles.description}>
+          <p>{description}</p>
+        </div>
       </div>
-      <div className={styles.description}>
-        <p>{description}</p>
-      </div>
+      <button>
+        ADD TO CART
+      </button>
     </div>
   );
 }

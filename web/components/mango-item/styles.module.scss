@@ -1,45 +1,68 @@
 .card {
   align-self: center;
-  background-color: lightblue;
+  background-color: #047455;
   border-radius: 1rem;
   width: 17rem;
   height: 26rem;
-
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: .5rem;
 
-  .image {
-    align-self: center;
-    border-radius: 1rem;
-    margin: .25rem;
-    padding: .25rem;
-  }
-
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: .25rem;
-    padding: .25rem;
-
-    h3 {
-      margin: 0;
+  .mainInformation {
+    .image {
+      align-self: center;
+      border-radius: 1rem;
+      margin: .25rem;
+      padding: .25rem;
     }
 
-    p {
-      margin: 0;
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: .25rem;
+      padding: .25rem;
+  
+      h3 {
+        margin: 0;
+        background: linear-gradient(45deg, #f7b56f, #f27f59);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+      p {
+        margin: 0;
+        background: linear-gradient(45deg, #f7b56f, #f27f59);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  
+    .description {
+      margin: .25rem;
+      padding: .25rem;
+  
+      p {
+        margin: 0;
+        background: linear-gradient(45deg, #f7b56f, #f27f59);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
   }
 
-  .description {
+  button {
+    cursor: pointer;
+    background-color: #f38c2b;
+    height: 3rem;
     margin: .25rem;
-    padding: .25rem;
-
-    p {
-      margin: 0;
-    }
+    font-family: 'Comfortaa', sans-serif;
   }
+
 }
 
