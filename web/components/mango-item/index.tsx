@@ -22,7 +22,7 @@ export default function MangoItem({name, imageUrl, price, description }: MangoIt
       />
       <div className={styles.info}>
         <h3>{name}</h3>
-        <p>{price}</p>
+        <p>${price}/lb</p>
       </div>
       <div className={styles.description}>
         <p>{description}</p>

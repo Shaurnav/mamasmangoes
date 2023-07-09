@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <nav className={styles.navbar}>
         <Link href="\" className={styles.logo}>
           <h3>Mama's Mangos</h3>
@@ -28,5 +28,5 @@ export default function Header() {
         </div>
       </nav>
     </header>
-  );
+);
 }

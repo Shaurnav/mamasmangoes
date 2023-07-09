@@ -1,36 +1,43 @@
-.navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-
-  .logo {
+.header {
+  min-height: 10vh;
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: bisque;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding: .5rem;    
+    justify-content: space-between;
+    padding: 0;
+    position: fixed;
+    margin-bottom: 10vh;
+    width: 100vw;
+    max-height: 10vh;
 
-    .mangoLogo {
-      padding: 0;
-      margin: 0;
-    }
-  
-    h3 {
-      background: linear-gradient(45deg, #f7b56f, #f27f59);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;    
-      
-    }
-  }
+    .logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding: .5rem;    
 
-  .shoppingCart {
-    padding: 1rem;
-    display: inherit;
-    flex-direction: column;
-    justify-content: center;
+      .mangoLogo {
+        padding: 0;
+        margin: 0;
+      }
+    
+      h3 {
+        background: linear-gradient(45deg, #f7b56f, #f27f59);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;    
+        
+      }
+    }
+
+    .shoppingCart {
+      padding: 1rem;
+      display: inherit;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
 }

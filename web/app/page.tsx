@@ -13,7 +13,7 @@ export default function Home() {
     name: 'Valencia Pride Mango',
     // slug: 'free-shirt',
     imageUrl: '/valencia-pride.jpg',
-    price: 70,
+    price: 2,
     // rating: 4.5,
     // numReviews: 8,
     // countInStock: 20,
@@ -24,9 +24,14 @@ export default function Home() {
   
   return (
     <div>
-      <Header/>
+
+      <header className={styles.header}>
+        <Header/>
+      </header>      
       <main className={styles.main}>
         <HeroBanner/>
+        <MangoItem {...sampleMango}/>
+        <MangoItem {...sampleMango}/>
         <MangoItem {...sampleMango}/>
       </main>
       <Footer/>
