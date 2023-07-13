@@ -5,7 +5,6 @@ import Footer from '@/components/footer'
 import Header from '@/components/header'
 import HeroBanner from '@/components/hero-banner'
 import MangoGrid from '@/components/mango-grid'
-import { StoreProvider } from '@/utils/Store'
 
 export default function Home() {
 
