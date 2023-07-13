@@ -14,7 +14,7 @@ export default function Home() {
     [{
       name: 'Valencia Pride Mango',
       imageUrl: '/valencia-pride.jpg',
-      price: 2,
+      price: 3,
       description: 'A popular south Floridian mango variety',
     }]
   };
@@ -26,7 +26,7 @@ export default function Home() {
       </header>      
       <main className={styles.main}>
         <HeroBanner/>
-        <MangoGrid {...sampleMangos}/>
+        <MangoGrid key={"sampleMangos"} {...sampleMangos}/>
       </main>
       <Footer/>
     </div>

@@ -7,7 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.navbar}>
         <Link href="/" className={styles.logo}>
-          <h3>Mama's Mangos</h3>
+          <h3>Mama&apos;s Mangos</h3>
           <Image 
             src="/mango.png" 
             alt="mango"

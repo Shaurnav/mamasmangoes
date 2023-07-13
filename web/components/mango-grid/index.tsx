@@ -7,7 +7,7 @@ export type MangoGridProps = {
 };
 
 export default function MangoGrid({mangos}: MangoGridProps) {
-  const MangoItems = mangos.map((mangoItem) => <MangoItem {...mangoItem}/>);
+  const MangoItems = mangos.map((mangoItem) => <MangoItem key={mangoItem.name} {...mangoItem}/>);
 
   return (
     <div className={styles.gridContainer}>

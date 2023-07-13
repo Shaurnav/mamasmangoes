@@ -28,9 +28,9 @@ export default function MangoItem({name, imageUrl, price, description }: MangoIt
           <p>{description}</p>
         </div>
       </div>
-      <Link className={styles.button} href="/" role='button'>
-        CONTACT TO BUY
-      </Link>
+      <button className={styles.button}>
+        (954) 482-1465
+      </button>
     </div>
   );
 }
