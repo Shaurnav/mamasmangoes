@@ -5,6 +5,14 @@
   // align-items: center;
   // padding: 6rem;
   min-height: 82vh;
+
+  
+  .description {
+    display: flex;
+    align-self: center;
+    max-width: 44vw;
+    font-size: large;
+  }
 }
 
 // .description {
